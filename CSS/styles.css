@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  background-color: #62c3d4;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #056676;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  color: #056676;
+  font-size: 3.5em;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Caveat', cursive;
+  color: #00647e;
+  font-size: 2em;
+  margin: 0;
+}
+
+p {
+  font-family: 'Acme', sans-serif;
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+}
+
+hr  {border-style: dotted none none none;
+border-color: #e8edff;
+border-width: 15px;
+margin: 70px auto 70px auto;
+width: 50%;}
+
+
+/**************************top divs*****************************************/
+.background-top-container {
+  background-image: url(https://www.freevector.com/uploads/vector/preview/27305/Dock_vector_2.jpg);
+  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 50%;
+  height: 700px;
+}
+
+.top-header {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subtitle-1 {
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 3em;
+  color: #056676;
+  margin-top: 10px;
+}
+
+.first-hr {margin: 20px auto 70px auto;}
+
+/*********************************profile conainer***********************************/
+.profile-container { position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20PX;
+  width: 50%;
+}
+
+.Profile-Picture {
+  border-style: solid;
+  border-color: #4b5d67;
+  border-width: 5px;
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+  padding: 5px;
+  margin-right: 20px;
+  margin-top: 25px;
+  position: relative;
+  float: left;
+}
+
+.profile-text {
+  margin: 25px auto 120px auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 32px
+}
+
+/*******************skilss container***********************/
+.skills-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%
+}
+
+.just-a-dab-img {
+  border-style: solid;
+  border-color: #4b5d67;
+  border-width: 5px;
+  height: 40%;
+  width: 65%;
+  padding: 5px;
+  margin-top: 20px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.skill-text-1 {
+  width: 100%;
+  text-align: center;
+}
+
+.lao-friend-img {
+  border-style: solid;
+  border-color: #4b5d67;
+  border-width: 5px;
+  height: 40%;
+  width: 65%;
+  padding: 5px;
+  margin-top: 50px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.skill-text-2 {
+  width: 100%;
+  text-align: center;
+}
+
+/**************************************** EXPERIENCE CONTANER*************************************/
+.WORK-EXPERIENCE {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%
+}
+
+.WORK-EXPERIENCE-TABLE {
+  margin: 50px auto 20px auto;
+  border-color: #e8edff;
+  border-style: solid;
+}
+
+a {
+  color: #00647e;
+}
+
+a:hover {
+  color: #efbbcf;
+}
+
+/****************************work experience hrl**************************/
+
+.bagel-shop
+{position: relative;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+width: 50%;
+line-height: 1.25;}
+
+.izzy-text {line-height: 1.25;}
+
+
+.Eastern-Earth
+
+{position: relative;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+width: 50%;
+line-height: 1.25;}
+
+.eastern-text
+{line-height: 1.25;}
+
+.Serving
+{position: relative;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+width: 50%;
+line-height: 1.25;}
+
+.serving-text
+{line-height: 1.25;
+}
+
+.percvierence {text-decoration: underline; font-weight: bolder;}
+
+
+.communication {text-decoration: underline; font-weight: bolder;}
+
+
+.Efficiently {text-decoration: underline; font-weight: bolder;}
+
+
+
+/******************************get in touch container*****************************************/
+input:hover {
+  background-color: #efbbcf;
+  color: #00647e;
+}
+
+.contact-me {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40PX;
+  width:50%;
+}
+
+.contact-me-button {
+  box-shadow:inset 0 1px 6px 5px #eb7fbc;
+	background:linear-gradient(to bottom, #fa7fcd 5%, #f0dfee 100%);
+	background-color:#fa7fcd;
+	border-radius:42px;
+	border:6px solid #f29be3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	font-style:italic;
+	padding:13px 60px;
+	text-decoration:none;
+	text-shadow:0 0 17px #e673cf;
+margin: 20px auto 50px auto;
+}
+
+.anchor {color:#eb7fbc;
+font-size: .75em;
+margin-top: 20px;}
+
+.bottom-container {background-color:#e8edff;
+padding: 20px;}
